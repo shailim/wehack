@@ -5,8 +5,8 @@ function Home() {
     return (
         <div>
             <CareerButton
-            title='Card'
-            imageUrl=''/>
+            title='Coder'
+            imageUrl='../../public/coder.png'/>
         </div>
     );
 }

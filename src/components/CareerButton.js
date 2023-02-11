@@ -1,8 +1,10 @@
 function CareerButton({title, imageUrl})
 {
    return(
-      <div>
-         Card
+      <div className="card-container">
+         <div className="image-container">
+            <img src={imageUrl}></img>
+         </div>
       </div>
    );
 }
