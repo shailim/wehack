@@ -13,8 +13,12 @@ body {
 
 .grid_container {
     display: grid;
+<<<<<<< Updated upstream
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 1em;
     grid-row-gap: 4em;
+=======
+    grid-template-columns: 33% 33% 33%;
+>>>>>>> Stashed changes
     justify-items: center;
 }

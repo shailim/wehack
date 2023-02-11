@@ -12,14 +12,4 @@ function SecondTask() {
 }
 
 
-let objects = [
-    {
-        title: "mmm",
-        image: "mmmm"
-    },
-    {
-
-    }
-]
-
 export default SecondTask;

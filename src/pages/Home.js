@@ -24,10 +24,14 @@ function Home() {
         <div className='body'>
             <div>Home Page</div>
             <div className='jobGrid'>
+<<<<<<< Updated upstream
                 {titles.map(title => (
                     <CareerButton text={title} imageUrl={'/coder.png'}></CareerButton>
-                ))} </div>
+=======
+                {objects.map(object => (
+                    <CareerButton title={object.title} imageUrl={object.image}></CareerButton>
 >>>>>>> Stashed changes
+                ))} </div>
         </div>
     );
 }
