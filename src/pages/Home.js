@@ -1,5 +1,5 @@
 import CareerButton from '../components/CareerButton';
-import './Home.css';
+import '../styles/Home.css';
 
 function Home() {
     return (
