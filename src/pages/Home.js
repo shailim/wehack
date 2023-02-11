@@ -6,7 +6,7 @@ function Home() {
         <div>
             <CareerButton
             title='Coder'
-            imageUrl='../../public/coder.png'/>
+            imageUrl='/coder.png'/>
         </div>
     );
 }
