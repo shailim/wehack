@@ -22,11 +22,12 @@ let objects = [
 function Home() {
     return (
         <div className='body'>
-            <div>Home Page</div>
+            <div className='home'>Choose Path</div>
             <div className='jobGrid'>
                 {objects.map(object => (
                     <CareerButton title={object.title} imageUrl={object.image}></CareerButton>
-                ))} </div>
+                ))} 
+            </div>
         </div>
     );
 }
