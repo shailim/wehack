@@ -1,8 +1,13 @@
+import CareerButton from '../components/CareerButton';
 import './Home.css';
 
 function Home() {
     return (
-        <div>Home Page</div>
+        <div>
+            <CareerButton
+            title='Card'
+            imageUrl=''/>
+        </div>
     );
 }
 
