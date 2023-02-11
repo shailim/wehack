@@ -1,0 +1,9 @@
+div {
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+}
